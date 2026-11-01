@@ -5,13 +5,12 @@ A hosted, browser-to-browser chat and cryptography lab for **Exploring the Netwo
 ## Open the website
 
 - **GitHub Pages:** https://kiingkunal.github.io/etnproject/
-- **ETNProject subdomain:** https://etnproject.dampaisle2.chatgpt.site
 
-GitHub Pages uses the account's `kiingkunal.github.io` hostname and the repository's `/etnproject/` path. The second address provides the requested `etnproject` subdomain on Sites. DNS hostnames are case-insensitive; the product is branded **ETNProject**.
+GitHub Pages uses the account's `kiingkunal.github.io` hostname and the repository's `/etnproject/` path. GitHub does not assign a project-only `etnproject.github.io` hostname to a repository under a different username. The product is branded **ETNProject**.
 
 ## Two-computer demonstration
 
-1. Open either hosted address on both computers. Chrome, Edge, Firefox, or Safari with WebRTC support is required.
+1. Open the hosted address on both computers. Chrome, Edge, Firefox, or Safari with WebRTC support is required.
 2. Prefer the same private Wi-Fi for a classroom demo. Internet is required to load the website and contact the signaling service.
 3. On computer A, select **Vigenère**, enter `Alice`, and choose a shared keyword such as `SECRET`.
 4. Click **Create a room**. Keep this tab open. Copy the room code or invite link.
@@ -112,7 +111,7 @@ npm test
 
 The `.github/workflows/pages.yml` workflow tests the project and publishes `dist/` to GitHub Pages after each push to `main`. No API key, paid server, or repository secret is required for the website. Repository Settings → Pages must use **GitHub Actions** as the build source.
 
-The Sites copy is separately deployed from the same verified source. A GitHub push updates GitHub Pages; it does not automatically update the Sites mirror.
+A separate Sites subdomain was reserved, but its publishing credential handoff was blocked by the workspace approval policy. That optional copy is not published. GitHub Pages is the working deployment; pushes to main update it automatically.
 
 ## Files
 
@@ -126,7 +125,7 @@ dist/vendor/          Pinned PeerJS runtime and license
 tests/                Node test suite
 PROJECT_REPORT.md     Assignment report and viva notes
 .github/workflows/    Automatic GitHub Pages deployment
-.openai/hosting.json  Sites mirror configuration
+.openai/hosting.json  Reserved, unpublished Sites configuration
 ```
 
 ## Troubleshooting

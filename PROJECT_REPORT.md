@@ -11,7 +11,7 @@ To create a hosted chat website in which two computer systems exchange messages 
 
 ## Implementation
 
-The website is written in HTML, CSS, and JavaScript, deployed from a GitHub repository to GitHub Pages. A second static deployment provides an ETNProject subdomain. Users open the website on two computers, choose the same cipher and shared key, and join a room. The browser applies the cipher before sending a message. The other browser reverses the mapping after receipt.
+The website is written in HTML, CSS, and JavaScript, deployed from a GitHub repository to GitHub Pages. Users open the website on two computers, choose the same cipher and shared key, and join a room. The browser applies the cipher before sending a message. The other browser reverses the mapping after receipt.
 
 PeerJS 1.5.5 manages WebRTC negotiation through its free cloud signaling service. Messages travel through a reliable WebRTC data channel, with SCTP over DTLS, normally using UDP. The static hosting server does not run the chat backend or store messages. This hosted implementation is distinct from a Python TCP server/client application.
 
