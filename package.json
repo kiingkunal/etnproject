@@ -4,6 +4,11 @@
   "private": true,
   "type": "module",
   "description": "Peer-to-peer networking assignment with browser-side substitution encryption",
+  "author": "Kunal Chaudhary and Jatin Dhiman",
+  "contributors": [
+    { "name": "Kunal Chaudhary", "url": "https://github.com/kiingkunal" },
+    { "name": "Jatin Dhiman", "url": "https://github.com/jatindhimangit" }
+  ],
   "scripts": {
     "test": "node --test tests/*.test.mjs",
     "dev": "python3 -m http.server 5174 --bind 127.0.0.1 --directory dist"

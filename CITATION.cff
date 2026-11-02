@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you cite ETNProject, please credit both project authors."
+type: software
+title: "ETNProject: The shared-key chat lab"
+version: 2.0.0
+authors:
+  - family-names: Chaudhary
+    given-names: Kunal
+    website: "https://github.com/kiingkunal"
+  - family-names: Dhiman
+    given-names: Jatin
+    website: "https://github.com/jatindhimangit"
+repository-code: "https://github.com/kiingkunal/etnproject"
+url: "https://kiingkunal.github.io/etnproject/"
+abstract: "A two-system browser chat and networking lab with Vigenere, Caesar, and monoalphabetic substitution ciphers."

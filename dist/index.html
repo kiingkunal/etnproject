@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0d1423"><meta name="description" content="A two-system networking lab. Connect browsers, exchange substitution-encrypted messages, and see the cipher in action.">
+  <meta name="author" content="Kunal Chaudhary and Jatin Dhiman">
   <title>ETNProject — The shared-key chat lab</title>
   <link rel="icon" type="image/svg+xml" href="./favicon.svg"><link rel="stylesheet" href="./style.css">
   <script src="./vendor/peerjs.min.js" defer></script><script type="module" src="./app.js"></script>
@@ -40,7 +41,7 @@
       </aside>
     </div>
     <div class="bottom-strip"><div><span class="signal-bars">▂▄▆</span><span id="network-summary">Ready when you are.</span></div><div class="counters"><span><b id="sent-count">00</b> SENT</span><span><b id="received-count">00</b> RECEIVED</span><span><i></i> SESSION ONLY</span></div></div>
-    <footer><span>ETNProject <span class="footer-divider">/</span> Built to explore. Designed to understand.</span><span>A TWO-SYSTEM CHAT EXPERIMENT <b>✳</b></span></footer>
+    <footer><span>ETNProject <span class="footer-divider">/</span> Co-created by <a href="https://github.com/kiingkunal" target="_blank" rel="noopener">Kunal Chaudhary</a> &amp; <a href="https://github.com/jatindhimangit" target="_blank" rel="noopener">Jatin Dhiman</a></span><span>A TWO-SYSTEM CHAT EXPERIMENT <b>✳</b></span></footer>
   </main>
   <div id="toast" class="toast" role="alert" hidden></div>
   <dialog id="about-dialog"><button id="close-about" class="close-dialog" aria-label="Close explanation" type="button">×</button><div class="eyebrow">THE NETWORK, EXPLAINED</div><h2>Two browsers.<br>One shared experiment.</h2><div class="about-flow"><span>YOUR BROWSER</span><b>⇄</b><span>PARTNER’S BROWSER</span></div><p><strong>1. Find each other.</strong> The free PeerJS signaling service exchanges connection details. Your room code identifies the hosting browser.</p><p><strong>2. Agree on the cipher.</strong> Both people enter the same cipher and key. A digest checks that the settings match. The key stays in the browser.</p><p><strong>3. Exchange messages.</strong> The browser substitutes your text, sends ciphertext over a reliable WebRTC data channel, then reverses the substitution at the other end.</p><p><strong>4. Watch it work.</strong> Click a message to see its plaintext, ciphertext, character mapping, and transmitted JSON. An acknowledgment confirms receipt.</p><div class="about-note">WebRTC uses SCTP over DTLS, normally over UDP. This is a real browser-to-browser networking project, not the earlier Python TCP-socket version. Signaling needs internet; restrictive networks can block peer connections. These classical ciphers are easy to break.</div><a href="https://github.com/kiingkunal/etnproject#readme" target="_blank" rel="noopener">Read the project documentation ↗</a></dialog>

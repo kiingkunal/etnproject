@@ -1,6 +1,7 @@
 # ETNProject: Two-System Chat with Shared-Key Substitution Ciphers
 
 **Subject:** Exploring the Networks  
+**Project co-creators and co-authors:** Kunal Chaudhary and Jatin Dhiman<br>
 **Student:** ____________________  
 **Roll number:** ____________________  
 **Class / division:** ____________________

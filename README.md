@@ -2,6 +2,12 @@
 
 A hosted, browser-to-browser chat and cryptography lab for **Exploring the Networks**. Open a link on two computers, create or join a room, and exchange messages using a shared classical substitution key. No Python installation, login, database, or paid backend is required to use the hosted website.
 
+## Creators and project authors
+
+Co-created and co-authored by **[Kunal Chaudhary](https://github.com/kiingkunal)** and **[Jatin Dhiman](https://github.com/jatindhimangit)**.
+
+Both are credited as project contributors and maintainers. Jatin is a repository collaborator with write access. See [AUTHORS.md](AUTHORS.md) for project credits and [CITATION.cff](CITATION.cff) for citation metadata. GitHub's automatic Contributors graph is calculated separately from commit history.
+
 ## Open the website
 
 - **GitHub Pages:** https://kiingkunal.github.io/etnproject/
